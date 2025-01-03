@@ -17,8 +17,6 @@ void draw(){
   fill(30, 204, 91); // a nice froggy green!
   ellipse(x, y, 200, 100); // face 
 
-  fill(1);
-  ellipse(x,y,100,50);
   fill(30, 204, 91);
   ellipse(x - 50, y - 50, 40, 40); // left eye socket
   ellipse(x + 50, y - 50, 40, 40); // right eye socket
