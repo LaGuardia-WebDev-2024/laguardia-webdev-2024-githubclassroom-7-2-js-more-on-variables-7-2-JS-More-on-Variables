@@ -15,10 +15,10 @@ void draw(){
   
   noStroke();
   fill(30, 204, 91); // a nice froggy green!
- ellipse(x, y, 200, 100); // face 
+  ellipse(x, y, 200, 100); // face 
 
-fill(1);
- ellipse(x,y,100,50);
+  fill(1);
+  ellipse(x,y,100,50);
   fill(30, 204, 91);
   ellipse(x - 50, y - 50, 40, 40); // left eye socket
   ellipse(x + 50, y - 50, 40, 40); // right eye socket
@@ -28,8 +28,10 @@ fill(1);
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
   fill(1);
   ellipse(x-50,y-50,10,10);
-    ellipse(x+50,y-50,10,10);
+  ellipse(x+50,y-50,10,10);
   
+  x = mouseX;
+  y = mouseY;
 
 }
 
